@@ -1,0 +1,37 @@
+//
+//  base.pch
+//  MYBASEPROJECT
+//
+//  Created by 徳永清詩 on 2014/12/14.
+//  Copyright (c) 2014年 kiyoshi.tokunaga. All rights reserved.
+//
+
+#ifndef MYBASEPROJECT_base_pch
+#define MYBASEPROJECT_base_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+// #import "NKBaseViewController.h"
+
+#endif
+
+// macro
+#define APP_DELEGATE ((AppDelegate*)[[UIApplication sharedApplication] delegate])
+#define SCREEN_BOUNDS ([UIScreen mainScreen].bounds)
+#define RGB(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define RGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+
+// size
+#define STATUSBAR_H 20
+#define TABBAR_H    48
+#define NAVBAR_H    44
+#define TOOLBAR_H   44
+
+
+#endif

@@ -7,16 +7,42 @@
 //
 
 #import "AppDelegate.h"
+#import "MYTabBarController.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+@synthesize window;
+@synthesize navigationController;
+@synthesize tabController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    /** window *********************/
+    CGRect screenBounds = [[UIScreen mainScreen] bounds];
+    window = [[UIWindow alloc] initWithFrame:screenBounds];
+    
+    // set my navigationBarViewController
+    UIViewController *vc = [UIViewController new];
+    navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    // set my tabBarViewController
+    tabController = [MYTabBarController new];
+    /** example **/
+    // set your init viewControllers tabbar
+    UIImage *icon = [UIImage imageNamed:@"icon_anashi.png"];
+    [tabController pushViewController:vc iconImage:icon selectedIconImage:icon];
+    [tabController pushViewController:vc iconImage:icon selectedIconImage:icon];
+    [tabController popViewControler];
+    [tabController pushViewController:navigationController iconImage:icon selectedIconImage:icon];
+    /*************/
+    
+    [window addSubview:tabController.view];
+    [window makeKeyAndVisible];
+    
     return YES;
 }
 
