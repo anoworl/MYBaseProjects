@@ -32,8 +32,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)dealloc
+{
     mutableViewControllers = nil;
 }
+
 
 #pragma my instance methods
 

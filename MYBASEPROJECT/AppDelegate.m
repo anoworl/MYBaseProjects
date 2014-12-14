@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "MYTabBarController.h"
+#import "CustomViewController.h"
+#import "CustomTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,8 +24,7 @@
     // Override point for customization after application launch.
     
     /** window *********************/
-    CGRect screenBounds = [[UIScreen mainScreen] bounds];
-    window = [[UIWindow alloc] initWithFrame:screenBounds];
+    window = [[UIWindow alloc] initWithFrame:SCREEN_BOUNDS];
     
     // set my navigationBarViewController
     UIViewController *vc = [UIViewController new];
@@ -34,10 +35,11 @@
     /** example **/
     // set your init viewControllers tabbar
     UIImage *icon = [UIImage imageNamed:@"icon_anashi.png"];
-    [tabController pushViewController:vc iconImage:icon selectedIconImage:icon];
-    [tabController pushViewController:vc iconImage:icon selectedIconImage:icon];
-    [tabController popViewControler];
     [tabController pushViewController:navigationController iconImage:icon selectedIconImage:icon];
+    CustomViewController *cvc = [CustomViewController new];
+    [tabController pushViewController:cvc iconImage:icon selectedIconImage:icon];
+    CustomTableViewController *ctvc = [CustomTableViewController new];
+    [tabController pushViewController:ctvc iconImage:icon selectedIconImage:icon];
     /*************/
     
     [window addSubview:tabController.view];
