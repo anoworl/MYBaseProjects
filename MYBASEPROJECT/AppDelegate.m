@@ -29,6 +29,7 @@
     // set my navigationBarViewController
     UIViewController *vc = [UIViewController new];
     navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
+    vc.accessibilityLabel = @"basicViewController";
     
     // set my tabBarViewController
     tabController = [MYTabBarController new];
