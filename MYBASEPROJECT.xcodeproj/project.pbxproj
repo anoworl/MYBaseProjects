@@ -21,6 +21,11 @@
 		4CF176A21A3C9C1800916BAB /* MYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF176A11A3C9C1800916BAB /* MYTabBarController.m */; };
 		4CF176A51A3CA10200916BAB /* icon_ana.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF176A41A3CA10200916BAB /* icon_ana.png */; };
 		4CF176A71A3CA3CD00916BAB /* icon_anashi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF176A61A3CA3CD00916BAB /* icon_anashi.png */; };
+		4EF51FB539A821D18D7983C8 /* libPods-Acceptance Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3531556A96A5256384589E0 /* libPods-Acceptance Tests.a */; };
+		62D7CA681A95F9B000DA6A8C /* Acceptance_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D7CA671A95F9B000DA6A8C /* Acceptance_test.m */; };
+		62D7CA6F1A95FAB800DA6A8C /* libPods-Acceptance Tests-KIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D7CA6E1A95FAB800DA6A8C /* libPods-Acceptance Tests-KIF.a */; };
+		62D7CA721A95FBBD00DA6A8C /* BootstrapTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D7CA711A95FBBD00DA6A8C /* BootstrapTest.m */; };
+		62D7CA731A95FE9000DA6A8C /* CustomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C6A9DC01A3D34E0007A5982 /* CustomViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +36,17 @@
 			remoteGlobalIDString = 4CF176751A3C956600916BAB;
 			remoteInfo = MYBASEPROJECT;
 		};
+		62D7CA691A95F9B000DA6A8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CF1766E1A3C956600916BAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CF176751A3C956600916BAB;
+			remoteInfo = MYBASEPROJECT;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08EE14788A84E101E307A213 /* Pods-Acceptance Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Acceptance Tests/Pods-Acceptance Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4C6A9DAD1A3D25CE007A5982 /* MYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYViewController.h; sourceTree = "<group>"; };
 		4C6A9DAE1A3D25CE007A5982 /* MYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYViewController.m; sourceTree = "<group>"; };
 		4C6A9DB01A3D282B007A5982 /* MYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYTableViewController.h; sourceTree = "<group>"; };
@@ -60,6 +73,14 @@
 		4CF176A11A3C9C1800916BAB /* MYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYTabBarController.m; sourceTree = "<group>"; };
 		4CF176A41A3CA10200916BAB /* icon_ana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ana.png; sourceTree = "<group>"; };
 		4CF176A61A3CA3CD00916BAB /* icon_anashi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_anashi.png; sourceTree = "<group>"; };
+		62D7CA631A95F9B000DA6A8C /* Acceptance Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acceptance Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D7CA661A95F9B000DA6A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62D7CA671A95F9B000DA6A8C /* Acceptance_test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Acceptance_test.m; sourceTree = "<group>"; };
+		62D7CA6E1A95FAB800DA6A8C /* libPods-Acceptance Tests-KIF.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Acceptance Tests-KIF.a"; path = "Pods/build/Debug-iphoneos/libPods-Acceptance Tests-KIF.a"; sourceTree = "<group>"; };
+		62D7CA701A95FBBD00DA6A8C /* BootstrapTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BootstrapTest.h; sourceTree = "<group>"; };
+		62D7CA711A95FBBD00DA6A8C /* BootstrapTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BootstrapTest.m; sourceTree = "<group>"; };
+		9782B10C41FC210DA54FE742 /* Pods-Acceptance Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acceptance Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Acceptance Tests/Pods-Acceptance Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3531556A96A5256384589E0 /* libPods-Acceptance Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Acceptance Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +95,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D7CA601A95F9B000DA6A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D7CA6F1A95FAB800DA6A8C /* libPods-Acceptance Tests-KIF.a in Frameworks */,
+				4EF51FB539A821D18D7983C8 /* libPods-Acceptance Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +128,10 @@
 			children = (
 				4CF176781A3C956600916BAB /* MYBASEPROJECT */,
 				4CF176921A3C956600916BAB /* MYBASEPROJECTTests */,
+				62D7CA641A95F9B000DA6A8C /* Acceptance test */,
 				4CF176771A3C956600916BAB /* Products */,
+				76C678D186747BF920711F29 /* Pods */,
+				9EFADC04571E7D8BA2CE40A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +140,7 @@
 			children = (
 				4CF176761A3C956600916BAB /* MYBASEPROJECT.app */,
 				4CF1768F1A3C956600916BAB /* MYBASEPROJECTTests.xctest */,
+				62D7CA631A95F9B000DA6A8C /* Acceptance Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +202,43 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		62D7CA641A95F9B000DA6A8C /* Acceptance test */ = {
+			isa = PBXGroup;
+			children = (
+				62D7CA671A95F9B000DA6A8C /* Acceptance_test.m */,
+				62D7CA651A95F9B000DA6A8C /* Supporting Files */,
+				62D7CA701A95FBBD00DA6A8C /* BootstrapTest.h */,
+				62D7CA711A95FBBD00DA6A8C /* BootstrapTest.m */,
+			);
+			path = "Acceptance test";
+			sourceTree = "<group>";
+		};
+		62D7CA651A95F9B000DA6A8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62D7CA661A95F9B000DA6A8C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76C678D186747BF920711F29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9782B10C41FC210DA54FE742 /* Pods-Acceptance Tests.debug.xcconfig */,
+				08EE14788A84E101E307A213 /* Pods-Acceptance Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9EFADC04571E7D8BA2CE40A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62D7CA6E1A95FAB800DA6A8C /* libPods-Acceptance Tests-KIF.a */,
+				E3531556A96A5256384589E0 /* libPods-Acceptance Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -206,6 +277,26 @@
 			productReference = 4CF1768F1A3C956600916BAB /* MYBASEPROJECTTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		62D7CA621A95F9B000DA6A8C /* Acceptance Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D7CA6D1A95F9B000DA6A8C /* Build configuration list for PBXNativeTarget "Acceptance Tests" */;
+			buildPhases = (
+				714AC0B7E5B4BDCB7F377FDA /* Check Pods Manifest.lock */,
+				62D7CA5F1A95F9B000DA6A8C /* Sources */,
+				62D7CA601A95F9B000DA6A8C /* Frameworks */,
+				62D7CA611A95F9B000DA6A8C /* Resources */,
+				5D8CEF5A857D631A723BB632 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62D7CA6A1A95F9B000DA6A8C /* PBXTargetDependency */,
+			);
+			name = "Acceptance Tests";
+			productName = "Acceptance test";
+			productReference = 62D7CA631A95F9B000DA6A8C /* Acceptance Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -220,6 +311,10 @@
 					};
 					4CF1768E1A3C956600916BAB = {
 						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 4CF176751A3C956600916BAB;
+					};
+					62D7CA621A95F9B000DA6A8C = {
+						CreatedOnToolsVersion = 6.0;
 						TestTargetID = 4CF176751A3C956600916BAB;
 					};
 				};
@@ -239,6 +334,7 @@
 			targets = (
 				4CF176751A3C956600916BAB /* MYBASEPROJECT */,
 				4CF1768E1A3C956600916BAB /* MYBASEPROJECTTests */,
+				62D7CA621A95F9B000DA6A8C /* Acceptance Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,7 +359,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		62D7CA611A95F9B000DA6A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D7CA731A95FE9000DA6A8C /* CustomViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D8CEF5A857D631A723BB632 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Acceptance Tests/Pods-Acceptance Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		714AC0B7E5B4BDCB7F377FDA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4CF176721A3C956600916BAB /* Sources */ = {
@@ -289,6 +426,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		62D7CA5F1A95F9B000DA6A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D7CA721A95FBBD00DA6A8C /* BootstrapTest.m in Sources */,
+				62D7CA681A95F9B000DA6A8C /* Acceptance_test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -296,6 +442,11 @@
 			isa = PBXTargetDependency;
 			target = 4CF176751A3C956600916BAB /* MYBASEPROJECT */;
 			targetProxy = 4CF176901A3C956600916BAB /* PBXContainerItemProxy */;
+		};
+		62D7CA6A1A95F9B000DA6A8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CF176751A3C956600916BAB /* MYBASEPROJECT */;
+			targetProxy = 62D7CA691A95F9B000DA6A8C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -434,6 +585,50 @@
 			};
 			name = Release;
 		};
+		62D7CA6B1A95F9B000DA6A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9782B10C41FC210DA54FE742 /* Pods-Acceptance Tests.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Acceptance test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MYBASEPROJECT.app/MYBASEPROJECT";
+			};
+			name = Debug;
+		};
+		62D7CA6C1A95F9B000DA6A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08EE14788A84E101E307A213 /* Pods-Acceptance Tests.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Acceptance test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MYBASEPROJECT.app/MYBASEPROJECT";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -460,6 +655,15 @@
 			buildConfigurations = (
 				4CF1769D1A3C956600916BAB /* Debug */,
 				4CF1769E1A3C956600916BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D7CA6D1A95F9B000DA6A8C /* Build configuration list for PBXNativeTarget "Acceptance Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D7CA6B1A95F9B000DA6A8C /* Debug */,
+				62D7CA6C1A95F9B000DA6A8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
